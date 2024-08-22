@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Zoomia for your business</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Zoomia for your business">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preload" href="css/grid.css" as="style" onload="this.rel='stylesheet'">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" as="style" onload="this.rel='stylesheet'" />
+    <link rel="stylesheet" href="css/main.css">
+    <link fetchpriority="high" rel="preload" href="img/banner-laptop.webp" as="image">
+</head>
+<body>
+
+    <div id="wrapper">
+        <!-- хедер  -->
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-6">
+                        <div class="head__left">
+                            <div class="logo">
+                                <a href="#"><img src="logo.png" alt=""></a>
+                            </div>
+                            <nav>
+                                <ul>
+                                    <li><a class="nav__link scrollTo" href="#about">О продукте</a></li>
+                                    <li><a class="nav__link scrollTo" href="#feedbacks">Преимущества</a></li>
+                                    <li><a class="nav__link scrollTo" href="#faq">FAQ</a></li>
+                                    <li><a class="nav__link scrollTo" href="#price">Цены</a></li>
+                                    <li class="d-mx-lg"><a class="primary--btn" data-id="my-modal" data-show-modal="">Консультация</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-6">
+                        <div class="head__right">
+                            <a href="tel:+77471164312" class="tel"><i class="icon icon-tel"><img src="img/svg/tel-icon.svg" alt="tel icon"></i><span class="d-mn-lg">+7 747 116 43 12</span></a>
+                            <a href="#" class="primary--btn d-mn-lg" data-id="my-modal" data-show-modal="">Консультация</a>
+                            <!-- burger for mobile  -->
+                            <div class="d-mx-lg">
+                                <div class="burger js-burger"><span></span></div>
+                                <div class="nav__overlay"></div>
+                            </div>
+                            <!--  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- баннер  -->
+        <section class="sc-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="banner__info">
+                            <h1>Увеличьте
+                                свои продажи
+                                <span>с K-Pricing</span></h1>
+                            <p>Автоматичесĸое управление ценами,<br>
+                                работа с предзаĸазом, аналитиĸа<br>
+                                и доступ ĸ товарам без продавцов</p>
+                            <a href="#" class="secondary--btn" data-id="my-modal" data-show-modal="">Пробный период 3 дня</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="banner__img d-mn-md"><img src="img/banner-laptop.webp" alt="laptop"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Все что нужно в одном инуструменте  -->
+        <section class="sc-instruments" id='about'>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 title text-center" data-inviewport="obs__slide-up">
+                        <h2>Все что нужно в одном инуструменте</h2>
+                        <div class="subtitle">Сотрудничая с магазином <i class="icon-kaspi"><img src="img/kaspi.png" alt="kaspi"></i> Сотрудничая с магазином</div>
+                    </div>
+                    <div class="col-12 instrument__col">
+                        <div class="row">
+                            <div class="col-lg-5 text__col">
+                                <div class="info__box" data-inviewport="obs__slide-up">
+                                    <h3>Каспи робот</h3>
+                                    <p>Обновляет цены в среднем 1 раз в 5 минут. Для чего он нужен - Каспи магазин устроен таким образом, что в одной карточке товара может быть несколько продавцов, обычно покупатели берут товар у продавца, чье предложение по товару находится на первом месте. Чтобы быть на первом месте должна быть самая низкая цена, вот для этого робот и нужен, чтобы отслеживать цены конкурентов и автоматически ставить цену ниже, чтобы выводить продавца на первое место</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 img__col"><div data-inviewport="obs__full-width" class="img__box"><div data-inviewport="obs__slide-up" class="num">01</div><img loading="lazy" src="img/instr-img.webp" alt="image"></div></div>
+                        </div>
+                    </div>
+                    <div class="col-12 instrument__col">
+                        <div class="row">
+                            <div class="col-lg-5 text__col">
+                                <div class="info__box" data-inviewport="obs__slide-up">
+                                    <h3>Работа с предзаказами</h3>
+                                    <p>Благодаря этой возможности, на каспи можно продавать товары, которых фактически нет в наличие (Типа дропшипинг) В нашем сервисе есть возможность выставлять дни предзаказ, и устанавливать на эти товары также робота, чтобы он автоматически изменял цену.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 img__col"><div data-inviewport="obs__full-width" class="img__box"><div data-inviewport="obs__slide-up" class="num">02</div><img loading="lazy" src="img/instr-img.webp" alt="image"></div></div>
+                        </div>
+                    </div>
+                    <div class="col-12 instrument__col">
+                        <div class="row">
+                            <div class="col-lg-5 text__col">
+                                <div class="info__box" data-inviewport="obs__slide-up">
+                                    <h3>Быстрая публикация товара</h3>
+                                    <p>Это опция реализована в аналитике и в товарах без продавцов, она позволяет по нажатию одной кнопки привязаться к карточке товара и начать этот товар продавать, при том можно сразу указать либо наличие товара или предзаказ </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 img__col"><div data-inviewport="obs__full-width" class="img__box"><div data-inviewport="obs__slide-up" class="num">03</div><img loading="lazy" src="img/instr-img.webp" alt="image"></div></div>
+                        </div>
+                    </div>
+                    <div class="col-12 instrument__col">
+                        <div class="row">
+                            <div class="col-lg-5 text__col">
+                                <div class="info__box" data-inviewport="obs__slide-up">
+                                    <h3>Товары без продавцов</h3>
+                                    <p>Еще одна опция, которая показывает товары, в которых нет ни одного продавца, то есть по сути через эту опцию можно найти также прибыльный товар, но еще и без конкурентов. Эти товары в целом не доступны даже в самом каспи магазине , а наш сервис их показывает</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 img__col"><div data-inviewport="obs__full-width" class="img__box"><div data-inviewport="obs__slide-up" class="num">04</div><img loading="lazy" src="img/instr-img.webp" alt="image"></div></div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="tip" data-inviewport="obs__slide-up">
+                            Эти все опции включены в наши тарифы, цена на тарифах является самой привлекательной на рынке (Думаю вы это заметите, когда будете анализировать конкурентов)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Бесплатный пробный период -->
+        <section class="sc-trial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 title text-center"  data-inviewport="obs__slide-up">
+                        <h2>Бесплатный пробный период</h2>
+                        <div class="subtitle">Оцените все преимущества вашего продукта в бесплатной пробной версии</div>
+                        <a href="#" class="secondary--btn" data-id="my-modal" data-show-modal="">Пробный период 3 дня</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Тарифные планы -->
+        <section class="sc-price" id="price">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 title text-center">
+                        <h2>Тарифные планы</h2>
+                    </div>
+                    <div class="col-12">
+                        <div class="price__wrap">
+                            <div class="price__bg d-mn-lg" data-inviewport="obs__slide-up"><img loading="lazy" src="img/price-bg.svg" alt="bubbles"></div>
+                            <div class="price__box p__1" data-inviewport="obs__slide-up">
+                                <div class="price__title">Пакет "Предзаказ"</div>
+                                <div class="price__info">
+                                    <div class="price__info-box">
+                                        <div class="price__cost">₸ 6 000</div>
+                                        <p>За 1 пользователя в месяц</p>
+                                    </div>
+                                    <div class="price__info-box">
+                                        <p>При оплате на год скидка 10%</p>
+                                    </div>
+                                    <a href="#" class="secondary--btn" data-id="my-modal" data-show-modal="">Попробовать бесплатно</a>
+                                </div>
+                            </div>
+                            <div class="price__box p__2" data-inviewport="obs__slide-down">
+                                <div class="price__title">Пакет "Все включено"</div>
+                                <div class="price__info">
+                                    <div class="price__info-box">
+                                        <div class="price__cost">от ₸ 9 000</div>
+                                        <p>За 1 пользователя в месяц</p>
+                                    </div>
+                                    <div class="price__info-box">
+                                        <p>Предзаказ, робот, аналитика , товары без продавцов, быстрая публикация,</p>
+                                    </div>
+                                    <div class="price__info-box">
+                                        <p>При оплате на год скидка 10%</p>
+                                    </div>
+                                    <a href="#" class="secondary--btn" data-id="my-modal" data-show-modal="">Попробовать бесплатно</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="app__wrap" data-inviewport="">
+                            <div class="app__info-box box__1" data-inviewport="obs__slide-up">
+                                <div class="num">01</div>
+                                <p>Мы постоянно улучшаем продукт и добавляем новые опции, которые позволяют онлайн продавцам зарабатывать еще больше </p>
+                            </div>
+                            <div class="app__img d-mn-lg"><img loading="lazy" src="img/hand.webp" alt="приложение"></div>
+                            <div class="app__info-box box__2" data-inviewport="obs__slide-down">
+                                <div class="num">02</div>
+                                <p>Сервис работает через десктоп и мобильное приложение </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Отзывы продавцов  -->
+        <section class="sc-feedback" id="feedbacks">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 title text-center" data-inviewport="obs__slide-up">
+                        <h2>Отзывы продавцов <i class="icon-kaspi"><img loading="lazy" src="img/kaspi.png" alt="kaspi"></i></h2>
+                        <div class="subtitle">Клиенты, которые уже используют Zoomia для Kaspi.kz!</div>
+                    </div>
+                    <div class="col-12">
+                        <div class="swiper__box" data-inviewport="obs__slide-up">
+                            <div class="swiper feedbackSwiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                        <div class="feedback__box">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                                            <div class="name">Имя Фамилия</div>
+                                            <div class="proffession">Должность человека</div>
+                                            <div class="img__box"><img loading="lazy" src="img/review-1.png" alt="Картинка отзывчика"></div>
+                                        </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                        <div class="feedback__box">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                                            <div class="name">Имя Фамилия</div>
+                                            <div class="proffession">Должность человека</div>
+                                            <div class="img__box"><img loading="lazy" src="img/review-2.png" alt="Картинка отзывчика"></div>
+                                        </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                        <div class="feedback__box">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                                            <div class="name">Имя Фамилия</div>
+                                            <div class="proffession">Должность человека</div>
+                                            <div class="img__box"><img loading="lazy" src="img/review-1.png" alt="Картинка отзывчика"></div>
+                                        </div>
+                                  </div>
+                                  <div class="swiper-slide">
+                                        <div class="feedback__box">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+                                            <div class="name">Имя Фамилия</div>
+                                            <div class="proffession">Должность человека</div>
+                                            <div class="img__box"><img loading="lazy" src="img/review-2.png" alt="Картинка отзывчика"></div>
+                                        </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Часто задаваемые вопросы  -->
+        <section class="sc__questions" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 title text-center" data-inviewport="obs__slide-up">
+                    <h2>Часто задаваемые вопросы</h2>
+                </div>
+                <div class="col-12">
+                    <div class="dropdown-item is-open" data-inviewport="obs__slide-up">
+                        <div class="drop-head">Как загружать данные в Zoomia?</div>
+                        <div class="panel is-open">
+                            <div class="panel__content">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime omnis, soluta nam consectetur et incidunt ipsam! Nihil corporis excepturi nisi cum minus at aperiam recusandae vero, illo eligendi consectetur ipsum?
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-item" data-inviewport="obs__slide-up">
+                        <div class="drop-head">Если я загружу новый товар в Zoomia, где он отобразится в Kaspi кабинете?</div>
+                        <div class="panel">
+                            <div class="panel__content">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam nostrum sunt odit tempora doloribus recusandae et officiis, tempore accusantium doloremque eveniet facilis nam ducimus veniam suscipit. Maiores pariatur repellat facere.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-item" data-inviewport="obs__slide-up">
+                        <div class="drop-head">Как часто будет обновляться информация по прайс листу?</div>
+                        <div class="panel">
+                            <div class="panel__content">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero beatae id laborum tenetur sit odio adipisci blanditiis tempore similique a illo inventore fugit reprehenderit, nobis repellendus dicta quasi. Atque, quod.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-item" data-inviewport="obs__slide-up">
+                        <div class="drop-head">Можно ли указывать дни предзаказа в Zoomia?</div>
+                        <div class="panel">
+                            <div class="panel__content">
+                              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque iste necessitatibus facilis earum qui quae aspernatur deserunt sapiente animi ex, odio iure ipsa dicta reiciendis. Praesentium natus incidunt inventore. Eius.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-item" data-inviewport="obs__slide-up">
+                        <div class="drop-head">Если у меня изменилась цена на товар, или наличие, где я могу изменить эту информацию?</div>
+                        <div class="panel">
+                            <div class="panel__content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quaerat sequi molestiae sapiente atque, eveniet porro iure cum odio ducimus fuga esse voluptatum recusandae officia pariatur quis accusantium facilis culpa!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-item" data-inviewport="obs__slide-up">
+                        <div class="drop-head">Сколько я могу указать торговых точек в Zoomia?</div>
+                        <div class="panel">
+                            <div class="panel__content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quaerat sequi molestiae sapiente atque, eveniet porro iure cum odio ducimus fuga esse voluptatum recusandae officia pariatur quis accusantium facilis culpa!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown-item" data-inviewport="obs__slide-up">
+                        <div class="drop-head">Что делать, если у моего товара нет артикула (SKU)?</div>
+                        <div class="panel">
+                            <div class="panel__content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quaerat sequi molestiae sapiente atque, eveniet porro iure cum odio ducimus fuga esse voluptatum recusandae officia pariatur quis accusantium facilis culpa!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section> 
+        <!-- footer  -->
+        <footer class="footer">
+           <div class="footer__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="logo"><a href="#"><img loading="lazy" src="logo.png" alt="logo"></a></div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="f__nav-wrap">
+                                <ul class="f__nav">
+                                    <li><a href="#">Виртуальный офис</a></li>
+                                    <li><a href="#">HR-Management</a></li>
+                                    <li><a href="#">Invoicing</a></li>
+                                </ul>
+                                <ul class="f__nav">
+                                    <li><a href="#">Sales-Pipeline</a></li>
+                                    <li><a href="#">Accounting</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="contact__box">
+                                <div class="contact">
+                                    <i class="icon icon-tel"><img loading="lazy" src="img/svg/tel-icon.svg" alt="tel icon"></i>
+                                    <p>
+                                        <a class="link__1" href="tel:+77471164312">+7 747 116 43 12</a>
+                                        <a class="link__2" href="#" data-id="my-modal" data-show-modal="">Консультация</a>
+                                    </p>
+                                </div>
+                                <div class="contact">
+                                    <i class="icon icon-mail"><img loading="lazy" src="img/svg/mail-icon.svg" alt="mail icon"></i>
+                                    <p>
+                                        Konstantin@capstone.kz
+                                        <a class="link__2" href="mailto:Konstantin@capstone.kz">Написать нам</a>
+                                    </p>
+                                </div>
+                                <div class="contact">
+                                    <i class="icon icon-location"><img loading="lazy" src="img/svg/location-icon.svg" alt="location icon"></i>
+                                    <p>РК, г. Алматы, ул. Маркова д. 22/37 оф. 7</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <div class="container copyright">
+                © Copyright 2021 Zoomia. All Rights Reserved.
+           </div>
+        </footer>
+    </div>
+
+    <!-- modal  -->
+    <div class="modal" id="my-modal">
+        <div class="modal-overlay" data-close-modal></div>
+        <div class="m-container">
+            <div class="m-close" data-close-modal></div>
+            <div class="m-content">
+                <div class="form__box">
+                    <h2>Нужен консультация?</h2>
+                    <p>Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+                    <form action="">
+                        <div class="field">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="field">
+                            <input type="tel" placeholder="Введите Ваш телефон" required>
+                        </div>
+                        <button class="btn primary--btn submit">Оставить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
